@@ -30,5 +30,7 @@ function start() {
     updateScore()
 }
 
-
+function test () {
+    console.log('tex')
+ }
 
