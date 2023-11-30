@@ -3,34 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quizz Game</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz Game</title>
 </head>
 <body>
-    <div id="welcome_screen" style="display: block;">
-        <h1>QUIZZ GAME : TEST YOUR KNOWLEDGE</h1>
-        <button class="start" onclick="startQuiz()">Start the Quizz</button>
+    <div id="start_screen">
+        <h1>Quiz Game</h1>
+        <button onclick="startQuiz()">Start Quiz</button>
     </div>
 
     <div id="quiz_screen" style="display: none;">
-            <h2 id="question"></h2>
-            <div id="options">
-                <button class="key1" onclick="checkResult()"></button>
-                <button class="key2" onclick="checkResult()"></button>
-                <button class="key3" onclick="checkResult()"></button>
-                <button class="key4" onclick="checkResult()"></button>
-            </div>
-
-        <button class="next">next question</button>
     </div>
-    
 
     <div id="result_screen" style="display: none;">
-        <h3>score:</h3>
-        <button class="reset" onclick="resetQuiz()">reset</button>
+        <h2>Your Score: <span id="score">0</span>/5</h2>
+        <h3 class="comment"></h3>
+        <button onclick="resetQuiz()">Restart Quiz</button>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="code.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

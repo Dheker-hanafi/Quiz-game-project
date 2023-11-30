@@ -1,9 +1,64 @@
-body{
-    background-color: rgb(207, 207, 255);
-    font-family: fantasy;
-    font-size: medium;
+body {
+    font-family: 'Arial', sans-serif;
     text-align: center;
-    color: rgb(0, 0, 0);
+    margin: 20px;
+    background-image: url("https://onwardigo.files.wordpress.com/2016/05/millionaire01.jpg");
+    background-size: cover;
 }
 
+#start_screen, #result_screen {
+    margin-top: 50px;
+    color: #fff;
+    font-size: x-large;
+    text-shadow: black;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #db3434;
+    color:black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px 0;
+}
+#quiz_screen{
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin:auto;
+    width: 600px; ;
+    background-color: #fff;
+}
+
+.question {
+    margin-bottom: 20px;
+    color:black
+}
+
+.options {
+    margin-top: 10px;
+}
+
+.answer-button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #3734db;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.answer-button:hover {
+    background-color: #2980b9;
+}
+
+#result_screen h2 {
+    color: #27ae60;
+}
 
