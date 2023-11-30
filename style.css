@@ -10,7 +10,7 @@ body {
     margin-top: 50px;
     color: #fff;
     font-size: x-large;
-    text-shadow: black;
+    text-shadow: black 10px;
 }
 
 button {
@@ -62,3 +62,8 @@ button {
     color: #27ae60;
 }
 
+.theme{
+    font-size:medium;
+    color: #27ae60;
+    font-weight: bold;
+}

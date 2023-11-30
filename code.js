@@ -218,7 +218,7 @@ function showResult() {
     else if(score===5) {
         $(".comment").append("perfect score")
     }
-    else {
+    else  if (0<score<5){
         $(".comment").append("good job")
     }
 }
